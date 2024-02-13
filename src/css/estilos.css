@@ -1,0 +1,53 @@
+body {
+   background-color: hsl(212, 45%, 89%);
+   color: black;
+}
+
+.qr-code {
+   background-color: hsl(0, 0%, 100%);
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   border-radius: 20px;
+   margin: 0 auto;
+   margin-top: 100px;
+   margin-bottom: 20px;
+   width: 20%;
+}
+
+.qr-code img {
+   padding: 15px;
+   border-radius: 25px;
+}
+
+.qr-code .informacoes h1 {
+   display: flex;
+   text-align: center;
+   flex-direction: column;
+   font-family: 'Outfit';
+   font-weight: 700;
+   font-size: 20px;
+   padding: 15px;
+   gap: 10px;
+}
+
+.qr-code .informacoes p {
+   display: flex;
+   text-align: center;
+   flex-direction: column;
+   margin-bottom: 10px;
+   font-family: 'Outfit';
+   font-weight: 400;
+   font-size: 15px;
+   padding: 15px;
+   gap: 10px;
+}
+
+.attribution {
+   font-size: 11px;
+   text-align: center;
+}
+
+.attribution a {
+   color: hsl(228, 45%, 44%);
+}
