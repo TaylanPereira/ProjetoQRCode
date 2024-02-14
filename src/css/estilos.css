@@ -42,6 +42,7 @@ p {
 footer p {
    font-size: 0.7rem;
    text-align: center;
+   opacity: 1;
 }
 
 footer a {
