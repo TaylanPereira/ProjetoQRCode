@@ -1,11 +1,11 @@
-@media(max-width: 1024px) {
-    .qr-code {
-        width: 30%;
+@media(max-width: 1440px) {
+    main {
+        width: 100%;
     }
 }
 
-@media(max-width: 768px) {
-    .qr-code {
-        width: 70%;
+@media(max-width: 375px) {
+    main {
+        width: 100%;
     }
 }
