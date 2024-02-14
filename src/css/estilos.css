@@ -1,53 +1,47 @@
 body {
    background-color: hsl(212, 45%, 89%);
    color: black;
-}
-
-.qr-code {
-   background-color: hsl(0, 0%, 100%);
+   font-family: 'Outfit';
+   padding: 1rem;
    display: flex;
+   text-align: center;
+   align-items: center;
+   min-height: 100svh;
    justify-content: center;
    flex-direction: column;
-   border-radius: 20px;
-   margin: 0 auto;
-   margin-top: 100px;
-   margin-bottom: 20px;
-   width: 20%;
+   gap: 2rem;
 }
 
-.qr-code img {
-   padding: 15px;
-   border-radius: 25px;
+main {
+   background-color: hsl(0, 0%, 100%);
+   max-width: 20rem;
+   margin-top: 8.5rem;
+   padding: 1rem;
+   border-radius: 1rem;
 }
 
-.qr-code .informacoes h1 {
-   display: flex;
-   text-align: center;
-   flex-direction: column;
-   font-family: 'Outfit';
-   font-weight: 700;
-   font-size: 20px;
-   padding: 15px;
-   gap: 10px;
+img {
+   display: block;
+   border-radius: 1rem;
+   max-width: 100%;
+   margin-bottom: 1.5rem;
 }
 
-.qr-code .informacoes p {
-   display: flex;
-   text-align: center;
-   flex-direction: column;
-   margin-bottom: 10px;
-   font-family: 'Outfit';
-   font-weight: 400;
-   font-size: 15px;
-   padding: 15px;
-   gap: 10px;
+h1 {
+   font-size: 1.4rem;
 }
 
-.attribution {
-   font-size: 11px;
+p {
+   padding: 1rem;
+   font-size: 0.95rem;
+   margin-bottom: 0.5rem;
+}
+
+footer p {
+   font-size: 0.7rem;
    text-align: center;
 }
 
-.attribution a {
+footer a {
    color: hsl(228, 45%, 44%);
 }
